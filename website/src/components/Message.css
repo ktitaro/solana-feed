@@ -1,0 +1,19 @@
+.message {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  border: 1px dashed var(--bs-white);
+}
+
+.message-sender {
+  opacity: .75;
+  font-size: .75rem;
+  margin-bottom: .25rem;
+}
+
+.message-content {
+  word-wrap: break-word;
+}

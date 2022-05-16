@@ -1,0 +1,17 @@
+.auth {
+  flex: 1;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.auth-title > b {
+  color: var(--bs-danger);
+  font-family: var(--bs-font-monospace);
+  font-style: italic;
+}
+
+.auth-button {
+  margin-top: 2rem;
+}

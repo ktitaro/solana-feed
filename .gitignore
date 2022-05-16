@@ -1,0 +1,14 @@
+# Mac OS
+.DS_Store
+
+# Node.js
+node_modules
+*.log
+
+# Dapp
+dapp/.anchor
+dapp/**/target
+dapp/test-ledger
+
+# Website
+website/dist
